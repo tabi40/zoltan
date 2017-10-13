@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by laszlovad (http://jsbin.com/ramatos/9/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="responsive-web-design-project">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A Simple Blog Theme</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300%7COpen+Sans" rel="stylesheet">
+<style id="jsbin-css">
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+.main-header {
+  background-color: rgba(255, 248, 53, .3);
+}
+
+.primary-content {
+  background-color: rgba(140, 96, 255, .3);
+}
+
+.post {
+  background-color: rgba(255, 0, 0, .3);
+}
+
+/* ==== BASE STYLES ==== */
+
+body {
+  font-family: Merriweather, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 28.8px;
+}
+
+h2 {
+	font-size: 25.6px;
+	color: #e5127d;
+}
+
+.main-header p {
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #8c8e9b;
+}
+</style>
+</head>
+<body>
+  <header class="main-header">
+    <h1>CodeBerry Light</h1>
+		<p>A Simple Blog Theme</p>
+		<a href="#">Like</a>
+		<a href="#">Follow</a>
+  </header>
+  <main class="primary-content">
+    <article class="post">
+			<h2>A Cool Article About Something Edgy</h2>
+			<img src="http://i.imgur.com/rGWSW9i.jpg" alt="Happy little kid">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+			<a href="#">Read more</a>
+		</article>
+		<article class="post">
+			<h2>A Strong Opinion On a Thing That Just Happened</h2>
+			<img src="http://i.imgur.com/JS1RcVU.jpg" alt="A man jumping in the desert">
+			<p>Phasellus ac orci et magna elementum vulputate. Mauris volutpat sodales leo, sit amet ornare risus. Mauris ornare lorem a tincidunt vulputate. Curabitur hendrerit eros dictum, ultricies libero id, aliquet nunc. Suspendisse dolor dui, bibendum id consequat ac, efficitur at ante. Pellentesque id rhoncus orci. Nulla varius ex eu urna semper, ac feugiat diam varius.</p>
+			<a href="#">Read more</a>
+		</article>
+		<article class="post">
+			<h2>A Listicle For You and Your Boyfriend</h2>
+			<img src="http://i.imgur.com/q80S4Ro.jpg" alt="Girls laughing together">
+			<p>Aliquam ut porta orci, ac venenatis diam. Aliquam facilisis quam nec dolor ornare ultrices. Nulla laoreet semper quam eleifend commodo. Ut facilisis dui nec sapien tempor placerat. Nulla non ornare lorem. Nunc efficitur ipsum et nibh feugiat, eu fringilla risus aliquet.</p>
+			<a href="#">Read more</a>
+		</article>
+		<a>Load more stories...</a>
+  </main>
+</body>
+</html>
